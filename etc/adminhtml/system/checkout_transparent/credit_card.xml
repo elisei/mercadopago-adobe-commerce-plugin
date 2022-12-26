@@ -24,6 +24,12 @@
             <source_model>MercadoPago\PaymentMagento\Model\Adminhtml\Source\PaymentAction</source_model>
             <config_path>payment/mercadopago_paymentmagento_cc/payment_action</config_path>
         </field>
+        <field id="can_initialize" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+            <label>Payment initiation profile</label>
+            <comment>In synchronous methods, only payments that have already reserved the amount are accepted. In asynchronous methods, this process can be performed in the future.</comment>
+            <source_model>MercadoPago\PaymentMagento\Model\Adminhtml\Source\IsBinaryMode</source_model>
+            <config_path>payment/mercadopago_paymentmagento_cc/can_initialize</config_path>
+        </field>
         <group id="document" translate="label comment" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Capturing customer data in the payment form</label>
             <comment>Activate this function to capture customer documents with an additional field on the payment form. Disable if the store already captures this data.</comment>

@@ -12,6 +12,7 @@
 "12 hours","12 horas"
 "1 day","1 dia"
 Tax,Tax
+"Awaiting payment of the Card.","Aguardando pagamento por Card."
 "Awaiting payment of the checkout pro.","Aguardando pagamento pelo checkout pro."
 "Awaiting payment of the Pix.","Aguardando pagamento via Pix."
 "Awaiting payment.","Aguardando pagamento."
@@ -20,6 +21,8 @@ Tax,Tax
 description,description
 Production,Produção
 "Sandbox - Environment for tests","Sandbox - Ambiente de teste"
+Synchronous,Síncrono
+Asynchronous,Assíncrono
 "1 installment","1 parcela"
 "2 installments","2 parcelas"
 "3 installments","3 parcelas"
@@ -219,6 +222,8 @@ Bancomer,Bancomer
 "Allows your customer to save the card for future use.","Permite que seu cliente salve o cartão para uso futuro."
 "Payment Action","Perfil do Pagamento"
 "Consult the store's business type to be able to choose between capturing payment at the time of purchase or at a later time.","Consulte o tipo de negócio da loja para poder escolher entre capturar o pagamento no ato da compra ou posteriormente."
+"Payment initiation profile","Perfil de iniciação de pagamento"
+"In synchronous methods, only payments that have already reserved the amount are accepted. In asynchronous methods, this process can be performed in the future.","Nos métodos síncronos, são aceitos apenas pagamentos que já reservaram o valor. Em métodos assíncronos, esse processo pode ser executado no futuro."
 "Installment and interest","Parcelamento e Juros"
 "Set in your account","Definir na sua conta"
 "Minimum amount for payment with this payment method.","Valor mínimo para essa forma de pagamento."
