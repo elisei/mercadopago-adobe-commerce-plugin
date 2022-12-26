@@ -63,6 +63,8 @@
                 <can_review_payment>1</can_review_payment>
                 <can_deny_payment>1</can_deny_payment>
                 <can_accept_payment>1</can_accept_payment>
+                <can_fetch_transaction_info>1</can_fetch_transaction_info>
+                <can_fetch_transaction_information>1</can_fetch_transaction_information>
                 <group>mercadopago_group</group>
                 <cctypes>visa,master,elo,amex,debmaster,hipercard,debvisa,debelo,cabal,debcabal,cmr,cencosud,diners,tarshop,argencard,naranja,maestro,tengo,sodexo,carnet,toka,mercadopagocard,edenred,redcompra,webpay,magna,presto,codensa,lider,creditel,oca</cctypes>
                 <cctypes_mco>visa,master,amex,diners,debmaster,debvisa,codensa</cctypes_mco>
