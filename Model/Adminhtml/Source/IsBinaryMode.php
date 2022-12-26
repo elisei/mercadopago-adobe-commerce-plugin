@@ -8,8 +8,6 @@
 
 namespace MercadoPago\PaymentMagento\Model\Adminhtml\Source;
 
-use Magento\Payment\Model\Method\AbstractMethod;
-
 /**
  * Payment Is Binary Mode options.
  */

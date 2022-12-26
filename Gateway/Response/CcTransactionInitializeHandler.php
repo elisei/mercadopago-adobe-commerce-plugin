@@ -34,21 +34,6 @@ class CcTransactionInitializeHandler implements HandlerInterface
     public const RESPONSE_PAYMENT_ID = 'id';
 
     /**
-     * Response Pay Status - Block name.
-     */
-    public const STATUS = 'status';
-
-    /**
-     * Response Pay Approved - Block name.
-     */
-    public const APPROVED = 'approved';
-
-    /**
-     * Response Pay In Process - Block name.
-     */
-    public const IN_PROCCESS = 'in_process';
-
-    /**
      * Handles.
      *
      * @param array $handlingSubject
