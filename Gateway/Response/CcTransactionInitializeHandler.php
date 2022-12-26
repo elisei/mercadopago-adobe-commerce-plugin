@@ -48,17 +48,12 @@ class CcTransactionInitializeHandler implements HandlerInterface
         ) {
             throw new InvalidArgumentException('Payment data object should be provided');
         }
-        $isApproved = false;
-
-        $isDenied = true;
 
         $paymentDO = $handlingSubject['payment'];
 
         $payment = $paymentDO->getPayment();
 
         $order = $payment->getOrder();
-
-        $amount = $order->getBaseGrandTotal();
 
         $transactionId = $response[self::PAYMENT_ID];
         $payment->setTransactionId($transactionId);
